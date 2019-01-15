@@ -1,3 +1,21 @@
+GIT
+  remote: https://github.com/matthewkennedy/spree_bs4.git
+  revision: bf0b6eec3bafde90d76e89d3cc32daa83c669fab
+  specs:
+    spree_bs4 (0.0.1.alpha)
+      spree_backend (>= 3.1.0, < 4.0)
+      spree_core (>= 3.1.0, < 4.0)
+      spree_extension
+
+GIT
+  remote: https://github.com/matthewkennedy/spree_remove_bs3.git
+  revision: 8a8313c0dcde22e61811ced4dbf77f6a7fef826a
+  specs:
+    spree_remove_bs3 (0.0.1.alpha)
+      spree_backend (>= 3.1.0, < 4.0)
+      spree_core (>= 3.1.0, < 4.0)
+      spree_extension
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -412,7 +430,9 @@ DEPENDENCIES
   selenium-webdriver
   spree (~> 3.7.0.rc1)
   spree_auth_devise (~> 3.4)
+  spree_bs4!
   spree_gateway (~> 3.4)
+  spree_remove_bs3!
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
